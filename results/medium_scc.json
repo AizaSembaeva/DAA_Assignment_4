@@ -1,0 +1,137 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "n" : 6,
+    "components" : [ {
+      "size" : 1,
+      "id" : 0,
+      "vertices" : [ 3 ]
+    }, {
+      "size" : 1,
+      "id" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "size" : 1,
+      "id" : 2,
+      "vertices" : [ 5 ]
+    }, {
+      "size" : 3,
+      "id" : 3,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "condensation_edges" : [ {
+      "from" : 0,
+      "to" : 1
+    }, {
+      "from" : 1,
+      "to" : 2
+    } ],
+    "metrics" : {
+      "time_ms" : 0.08,
+      "dfsVisits" : 12,
+      "edgesExplored" : 10
+    }
+  }, {
+    "graph_id" : 2,
+    "n" : 8,
+    "components" : [ {
+      "size" : 1,
+      "id" : 0,
+      "vertices" : [ 0 ]
+    }, {
+      "size" : 1,
+      "id" : 1,
+      "vertices" : [ 1 ]
+    }, {
+      "size" : 1,
+      "id" : 2,
+      "vertices" : [ 2 ]
+    }, {
+      "size" : 1,
+      "id" : 3,
+      "vertices" : [ 3 ]
+    }, {
+      "size" : 1,
+      "id" : 4,
+      "vertices" : [ 4 ]
+    }, {
+      "size" : 1,
+      "id" : 5,
+      "vertices" : [ 5 ]
+    }, {
+      "size" : 1,
+      "id" : 6,
+      "vertices" : [ 6 ]
+    }, {
+      "size" : 1,
+      "id" : 7,
+      "vertices" : [ 7 ]
+    } ],
+    "condensation_edges" : [ {
+      "from" : 0,
+      "to" : 1
+    }, {
+      "from" : 1,
+      "to" : 2
+    }, {
+      "from" : 2,
+      "to" : 3
+    }, {
+      "from" : 3,
+      "to" : 4
+    }, {
+      "from" : 4,
+      "to" : 5
+    }, {
+      "from" : 5,
+      "to" : 6
+    }, {
+      "from" : 6,
+      "to" : 7
+    } ],
+    "metrics" : {
+      "time_ms" : 0.0211,
+      "dfsVisits" : 16,
+      "edgesExplored" : 14
+    }
+  }, {
+    "graph_id" : 3,
+    "n" : 7,
+    "components" : [ {
+      "size" : 1,
+      "id" : 0,
+      "vertices" : [ 3 ]
+    }, {
+      "size" : 1,
+      "id" : 1,
+      "vertices" : [ 4 ]
+    }, {
+      "size" : 1,
+      "id" : 2,
+      "vertices" : [ 5 ]
+    }, {
+      "size" : 1,
+      "id" : 3,
+      "vertices" : [ 6 ]
+    }, {
+      "size" : 3,
+      "id" : 4,
+      "vertices" : [ 0, 1, 2 ]
+    } ],
+    "condensation_edges" : [ {
+      "from" : 0,
+      "to" : 1
+    }, {
+      "from" : 1,
+      "to" : 2
+    }, {
+      "from" : 2,
+      "to" : 3
+    } ],
+    "metrics" : {
+      "time_ms" : 0.0168,
+      "dfsVisits" : 14,
+      "edgesExplored" : 12
+    }
+  } ]
+}
