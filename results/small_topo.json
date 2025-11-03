@@ -1,0 +1,30 @@
+{
+  "results" : [ {
+    "graph_id" : 1,
+    "topo_order_components" : [ 0, 3, 1, 2 ],
+    "derived_task_order" : [ 3, 0, 1, 2, 4, 5 ],
+    "metrics" : {
+      "pushes" : 4,
+      "pops" : 4,
+      "time_ms" : 0.0899
+    }
+  }, {
+    "graph_id" : 2,
+    "topo_order_components" : [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+    "derived_task_order" : [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+    "metrics" : {
+      "pushes" : 8,
+      "pops" : 8,
+      "time_ms" : 0.0289
+    }
+  }, {
+    "graph_id" : 3,
+    "topo_order_components" : [ 0, 4, 1, 2, 3 ],
+    "derived_task_order" : [ 3, 0, 1, 2, 4, 5, 6 ],
+    "metrics" : {
+      "pushes" : 5,
+      "pops" : 5,
+      "time_ms" : 0.0198
+    }
+  } ]
+}
